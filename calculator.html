@@ -6,12 +6,17 @@ function cube() {
 	var num = document.getElementById("n1");
 	num.value = Math.pow(num.value, 3);
 }
+function sine() {
+	var num = document.getElementById("n1");
+	num.value = sin(num.value);
+}
 </script>
 </head>
 <body>
 	Number:
 	<input type="text" id="n1"><p>
 	<button onclick="cube()"> x<sup>3</sup> </button>
+	<button onclick="sine()"> sin(x) </button>
 
 </body> 
 </html> 
